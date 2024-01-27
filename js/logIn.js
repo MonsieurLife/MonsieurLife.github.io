@@ -1,5 +1,5 @@
 // base uri API
-const BASE_URI = "https://node-expess.martinpedraza.repl.co/"
+const BASE_URI = "https://node-expess.thomasferreira7.repl.co/api/secret"
 fetch(BASE_URI)
 	.then((res) => {
 		res.json().then((data) => {
